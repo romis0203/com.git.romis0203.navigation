@@ -15,3 +15,7 @@ Também adaptei a PedidosScreen para capturar esse parâmetro e exibi-lo na inte
 Nesse commit modifiquei a navegação do botão presente na MenuScreen, passando o nome do cliente na chamada da rota.
 
 Com isso, a navegação passou a utilizar outro formato, permitindo que a tela de pedidos receba e mostre dinamicamente o nome informado.
+
+No ultimo commit, adicionei um novo parâmetro (idade) na navegação da tela de perfil, ajustei a rota para "perfil/{nome}/{idade}, e alterei o tipo para "NavType".
+
+Atualizei também a PerfilScreen para receber esse parâmetro e exibir junto com o nome na tela.
